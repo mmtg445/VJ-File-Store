@@ -58,8 +58,6 @@ async def start(client, message):
             ],[
             InlineKeyboardButton('🔄 𝗕𝗮𝗰𝗸𝘂𝗽 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 🔄', url='https://t.me/RM_Movie_Zone'),
             InlineKeyboardButton('🎗️ 𝗠𝗮𝗶𝗻 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 🎗️', url='https://t.me/RM_Movie_Flix')
-            ]
-            [InlineKeyboardButton('📢 𝗨𝗽𝗱𝗮𝘁𝗲 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 📢', url='https://t.me/MoviesAdda24_72')
             ],[
             InlineKeyboardButton('💁‍♀️ ʜᴇʟᴘ', callback_data='help'),
             InlineKeyboardButton('😊 ᴀʙᴏᴜᴛ', callback_data='about')
@@ -415,8 +413,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('🔄 𝗕𝗮𝗰𝗸𝘂𝗽 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 🔄', url='https://t.me/RM_Movie_Zone'),
             InlineKeyboardButton('🎗️ 𝗠𝗮𝗶𝗻 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 🎗️', url='https://t.me/RM_Movie_Flix')
             ]
-            [InlineKeyboardButton('📢 𝗨𝗽𝗱𝗮𝘁𝗲 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 📢', url='https://t.me/MoviesAdda24_72')
-            ],[
+            ,[
             InlineKeyboardButton('💁‍♀️ ʜᴇʟᴘ', callback_data='help'),
             InlineKeyboardButton('😊 ᴀʙᴏᴜᴛ', callback_data='about')
         ]]
