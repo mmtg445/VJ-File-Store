@@ -18,12 +18,12 @@ def is_enabled(value, default):
         return default
       
 # Bot Information
-API_ID = int(environ.get("API_ID", ""))
-API_HASH = environ.get("API_HASH", "")
+API_ID = int(environ.get("API_ID", "21188057"))
+API_HASH = environ.get("API_HASH", "8564fab8db759bb04b1907bd12ed98ef")
 BOT_TOKEN = environ.get("BOT_TOKEN", "")
 
-PICS = (environ.get('PICS', 'https://graph.org/file/ce1723991756e48c35aa1.jpg')).split() # Bot Start Picture
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '').split()]
+PICS = (environ.get('PICS', 'https://ibb.co/1J9KMH2')).split() # Bot Start Picture
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '-6976744562 -6964538561').split()]
 BOT_USERNAME = environ.get("BOT_USERNAME", "") # without @
 PORT = environ.get("PORT", "8080")
 
@@ -31,12 +31,12 @@ PORT = environ.get("PORT", "8080")
 CLONE_MODE = bool(environ.get('CLONE_MODE', True)) # Set True or False
 
 # If Clone Mode Is True Then Fill All Required Variable, If False Then Don't Fill.
-CLONE_DB_URI = environ.get("CLONE_DB_URI", "")
-CDB_NAME = environ.get("CDB_NAME", "clonetechvj")
+CLONE_DB_URI = environ.get("CLONE_DB_URI", "mongodb+srv://rahat:rahat@rahat.ncjti.mongodb.net/?retryWrites=true&w=majority&appName=Rahat")
+CDB_NAME = environ.get("CDB_NAME", "Rahat")
 
 # Database Information
-DB_URI = environ.get("DB_URI", "")
-DB_NAME = environ.get("DB_NAME", "techvjbotz")
+DB_URI = environ.get("DB_URI", "mongodb+srv://rahat:rahat@rahat.ncjti.mongodb.net/?retryWrites=true&w=majority&appName=Rahat")
+DB_NAME = environ.get("DB_NAME", "Rahat")
 
 # Auto Delete Information
 AUTO_DELETE_MODE = bool(environ.get('AUTO_DELETE_MODE', True)) # Set True or False
@@ -46,7 +46,7 @@ AUTO_DELETE = int(environ.get("AUTO_DELETE", "30")) # Time in Minutes
 AUTO_DELETE_TIME = int(environ.get("AUTO_DELETE_TIME", "1800")) # Time in Seconds
 
 # Channel Information
-LOG_CHANNEL = int(environ.get("LOG_CHANNEL", ""))
+LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "1002400133611"))
 
 # File Caption Information
 CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", f"{script.CAPTION}")
@@ -80,7 +80,7 @@ if 'DYNO' in environ:
     ON_HEROKU = True
 else:
     ON_HEROKU = False
-URL = environ.get("URL", "https://testofvjfilter-1fa60b1b8498.herokuapp.com/")
+URL = environ.get("URL", "")
 
 
 # Don't Remove Credit Tg - @VJ_Botz
