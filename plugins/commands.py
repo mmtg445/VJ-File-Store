@@ -61,8 +61,8 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('🍿 𝘔𝘰𝘷𝘪𝘦 𝘙𝘦𝘲𝘶𝘦𝘴𝘵 𝘎𝘳𝘰𝘶𝘱', url='https://t.me/Movies_RM')
             ],[
-            InlineKeyboardButton('♨️ sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ', url='https://t.me/Movie_Supports'),
-            InlineKeyboardButton('🤖 ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ', url='https://t.me/abir_x_official')
+            InlineKeyboardButton('♨️ sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ', url='https://t.me/ModVipRM_Discussion'),
+            InlineKeyboardButton('🤖 ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ', url='https://t.me/ModVipRM')
             ],[
             InlineKeyboardButton('💁‍♀️ ʜᴇʟᴘ', callback_data='help'),
             InlineKeyboardButton('😊 ᴀʙᴏᴜᴛ', callback_data='about')
@@ -342,8 +342,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('🍿 𝘔𝘰𝘷𝘪𝘦 𝘙𝘦𝘲𝘶𝘦𝘴𝘵 𝘎𝘳𝘰𝘶𝘱', url='https://t.me/Movies_RM')
         ],[
-            InlineKeyboardButton('♨️ sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ', url='https://t.me/Movie_Supports'),
-            InlineKeyboardButton('🤖 ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ', url='https://t.me/RM_Movie_Flix')
+            InlineKeyboardButton('♨️ sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ', url='https://t.me/ModVipRM_Discussion'),
+            InlineKeyboardButton('🤖 ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ', url='https://t.me/ModVipRM')
         ],[
             InlineKeyboardButton('💁‍♀️ ʜᴇʟᴘ', callback_data='help'),
             InlineKeyboardButton('😊 ᴀʙᴏᴜᴛ', callback_data='about')
